@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  background-color:#8ac926;
+  font-family: arial, sans-serif;
+  color: #8ac926;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1, h2 {
+  font-family: Creepster, sans-serif;
+  font-size: 32px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #8ac926;
+  text-decoration: none;
+  transition: 0.25;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.card {
+  background-color: orangered;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 12px 24px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 40px 56px;
+  width: 560px;
+  margin: 36px auto;
+}
+
+i {
+  font-size: 32px;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
